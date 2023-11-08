@@ -8,11 +8,6 @@
 }
 
 
-body {
-    width: 100%;
-    height: 100%;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -105,5 +100,4 @@ body {
     padding: 10px 0px 10px 0px;
     bottom: 0;
     position: absolute;
-
 }

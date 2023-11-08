@@ -51,6 +51,8 @@ btnLogin.addEventListener("click", (e) => {
         if (nomeValue === "" || emailValue === "" || passwordValue === '' || ConfirmPasswordValue === "") {
             messenge.innerHTML = "Preencha todos os campos!"
             messenge.style.color = 'red'
+            messenge.style.fontWeight = '800';
+            messenge.style.fontFamily ='italic'
 
             setTimeout(() => {
                 messenge.innerHTML = "";
@@ -64,6 +66,8 @@ btnLogin.addEventListener("click", (e) => {
         } else if (passwordValue === ConfirmPasswordValue) {
             messenge.innerHTML = "Login Feito com sucesso";
             messenge.style.color = 'green';
+            messenge.style.fontWeight = '800';
+            messenge.style.fontFamily ='italic'
 
             setTimeout(() => {
                 messenge.innerHTML = "";
@@ -76,6 +80,8 @@ btnLogin.addEventListener("click", (e) => {
         } else if (passwordValue != ConfirmPasswordValue) {
             messenge.innerHTML = "Senhas diferentes";
             messenge.style.color = 'red';
+            messenge.style.fontWeight = '800';
+            messenge.style.fontFamily ='italic'
 
             setTimeout(() => {
                 messenge.innerHTML = '';
@@ -91,5 +97,7 @@ btnLogin.addEventListener("click", (e) => {
     validação();
 
 })
+
+
 
 
